@@ -40,7 +40,7 @@ mylist[1:3] = ["mahdi","saeed"]
 print(mylist)
 print(len(mylist))
 
-mylist[0:1] = ["mohammad","hossein"]
+mylist[0:1] = ["mohammad","hossein"]  #  بجای یک عضو دو عضو قرارمی گیره و بقیه شیفت میشن یه راست
 print(mylist)
 print(len(mylist))
 
@@ -62,7 +62,7 @@ mylist.extend(newlist)  # یک لیست رو به لیست دیگه اضافه �
 print(mylist)
 print(len(mylist))
 
-mytuplle_2 = ("ysef","iran")  #  تیوپل ها اعضاشون قابل تغییر نیستند 
+mytuplle_2 = ("usef","iran")  #  تیوپل ها اعضاشون قابل تغییر نیستند 
 mylist.extend(mytuplle_2) 
 print(mylist)
 print(len(mylist))

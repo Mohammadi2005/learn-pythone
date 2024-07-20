@@ -1,5 +1,5 @@
 print('hello world')
-print("im amir hossein")
+print("i am amir hossein")
 
 # date type
 
@@ -13,6 +13,7 @@ print (type (15.4)) # float
 
 print (75j)
 print (type (75j)) # complex
+print("\n\n")
 
 # operator
 
@@ -20,18 +21,18 @@ print ( 54 + 6 )
 print ( 24 - 8 - 7)
 print ( 4 * 3 )
 print ( 42 / 3 )
-print ( type ( 42 / 3 ))
+print ( type ( 42 / 3 ))  #  تایپ تقسیم میشه فلوت
 print ( 8 % 3 )
 print ( type (48 % 5))
+print("\n\n")
 
 #  power
 
 print ( 4 ** 3 )
-
 print ( 8 / 3 )
-
 print ( 8 // 3 )
-print ( type ( 8 // 3 ))
+print ( type ( 8 // 3 ))  #  تقسیمی که تایپش عدد صحیح باشه
+print("\n\n")
 
 # variable
 
@@ -55,6 +56,7 @@ Name = 'reza'
 
 print (name)
 print (Name)
+print("\n\n")
 
 # Casting # ریخته گری
  

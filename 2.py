@@ -7,7 +7,7 @@ print(my_name)
 date = 'i am amir hossein \ni am from iran'
 print(date)
 
-password = "word \'AHM\' is passwprd" # استفاده از سینگل کوتیشن داخل منن
+password = "word \'AHM\' is passwprd" # همراه با بک اسلش باید بیاد استفاده از سینگل کوتیشن داخل منن
 print(password)
 
 text = """hello
@@ -41,7 +41,7 @@ print(txt_1)
 
 # string methods
 
-text  = "   i am {} {} From Iran"
+text  = "   i am {} {} From Iran    "
 
 print(text.capitalize()) # اولین حرف رو بزرگ میکنه
 print(text.casefold())  # همه حروف رو کوچک میکنه
@@ -53,7 +53,7 @@ print(text.strip()) # اسپیس های اضافی رو از دو طرف حذف 
 print(text.title()) # حرف اول ها رو بزرگ میکنه
 print(text.upper())  # همه حروف رو بزرگ میکنه
 print(text.lower()) # همه حروف رو کوچیک میکنه
-print(text.__len__()) #  طول رشته رو میده
+print(len(text)) #  طول رشته رو میده
 
 # date type bool
 

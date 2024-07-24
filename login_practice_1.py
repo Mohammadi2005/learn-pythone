@@ -33,3 +33,14 @@ else:
     
     else:
         print("you login saccessfully. ")
+
+############################################       شکل بهتر پارت 2
+print("part 3. \n")
+
+while entered_password not in users and users[entered_username] != entered_password:
+    print("your usernsme or password is wrong enter again. ")
+    entered_username = input("enter your user name again. ")
+    entered_password = input("enter your password again. ")
+
+else:
+    print("you login.")

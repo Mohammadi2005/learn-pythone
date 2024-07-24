@@ -28,8 +28,8 @@ print(me.items())
 
 #  چک کردن
 
-print("list friends" in me) 
-print("name" in me)
+print("list friends" in me)  #  bool
+print("name" in me)  #  bool
 
 #  تغییر اعضا
 

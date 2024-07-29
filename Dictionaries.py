@@ -42,7 +42,7 @@ print(me)
 
 #  حذف ایتم از دیکشنری
 
-me.pop("first name")
+me.pop("first name")   #  نام کلید رو میده
 print(me)
 
 me.popitem()  #  اخرین عنصر اضافه شده رو حذف می کنه
@@ -104,5 +104,5 @@ print(myfamily["child2"])
 keys = ('key1','key2','key3')
 valus = 1
 
-mydict = dict.fromkeys(keys,valus)  #  ساختار رو میسازه و همه مقادیر ئرو با یک مقدار مقدار دهی میکنه  
+mydict = dict.fromkeys(keys,valus)  #  ساختار رو میسازه و همه مقادیر رو با یک مقدار مقدار دهی میکنه  
 print(mydict)

@@ -33,7 +33,7 @@ for x in range(20,23):  #  تعیین محدوده
 
 print("\n\n")
 
-for x in range(2,15,4):
+for x in range(2,15,4):    #   از دو تا 15 رو 4 تا 4 تا میره
     print(x)
 else:
     print("finished")

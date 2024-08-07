@@ -44,55 +44,55 @@ hello_3("hamid","gavad","galil","gahan",age = 19,year = 1403)
 #  Default value
 #  پارامتر های یک تابع رو به صورت پیش فرض مقدار دهی میکنیم
 
-def me(name = "amir hossein", last_name = "mohammadi"):
-    print(f"my name is {name} {last_name}.")
+# def me(name = "amir hossein", last_name = "mohammadi"):
+#     print(f"my name is {name} {last_name}.")
 
-me("ahmad reza")
-me()
-me("saeed","akbari")
+# me("ahmad reza")
+# me()
+# me("saeed","akbari")
 
-#######################################
+# #######################################
 
-#  قسمت 60
-#  Passing a list as a argument
-#  هر نوع داده ای رو می تونیم به تابع پاس بدیم
+# #  قسمت 60
+# #  Passing a list as a argument
+# #  هر نوع داده ای رو می تونیم به تابع پاس بدیم
 
-def hello_list(mylist):
-    for item in mylist:
-        print(f"hello {item}")
+# def hello_list(mylist):
+#     for item in mylist:
+#         print(f"hello {item}")
 
-list_1 = ["ali","ahmad","ahsan","mohsan"]
+# list_1 = ["ali","ahmad","ahsan","mohsan"]
 
-hello_list(list_1)
-print("\n\n")
-hello_list(["amir","gavad"])
-print("\n\n")
-hello_list("amir ali")  #  string ها هم لیبست هستند
+# hello_list(list_1)
+# print("\n\n")
+# hello_list(["amir","gavad"])
+# print("\n\n")
+# hello_list("amir ali")  #  string ها هم لیبست هستند
 
-######################################
+# ######################################
 
-#  61 قسمت
-#  return values
-#  با کلمه ریترن مقدار دلخواه رو میفرستیم تو خروجی
+# #  61 قسمت
+# #  return values
+# #  با کلمه ریترن مقدار دلخواه رو میفرستیم تو خروجی
 
-def sum(a, b):
-    c = a + b
-    return c
+# def sum(a, b):
+#     c = a + b
+#     return c
 
-print(sum(44,8))
-print(sum(14,5) + 20)
+# print(sum(44,8))
+# print(sum(14,5) + 20)
 
-def SUM(a,b):  #  میتویم چندین مقدار برای خروجی داشته باشیم
-    return a + b, a * b, a, b  #  مقادیر خروجی توی تاپل ذخیره میشه
+# def SUM(a,b):  #  میتویم چندین مقدار برای خروجی داشته باشیم
+#     return a + b, a * b, a, b  #  مقادیر خروجی توی تاپل ذخیره میشه
 
-print(SUM(3,4))
+# print(SUM(3,4))
 
-for i in SUM(5,2):
-    print(i)
+# for i in SUM(5,2):
+#     print(i)
 
-print("\n\n")
+# print("\n\n")
 
-result = SUM(1,6)
+# result = SUM(1,6)
 
-for i in result:
-    print(i)
+# for i in result:
+#     print(i)
